@@ -1,0 +1,6 @@
+output
+*.pyc
+cache
+*.db
+.DS_Store
+*.swp
