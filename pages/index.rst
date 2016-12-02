@@ -6,28 +6,23 @@
 .. link: 
 .. description: 
 .. type: text
+.. hidetitle: True
 
-.. class:: col-md-6
+.. class:: col-md-8 col-md-offset-2
 
-.. admonition:: This is an example site
+.. raw:: html
 
-    Some really basic intro text goes here. Look Ma, no hands!
+    <h1 class="page-title">My name is Chris Campbell.<br><i>aka</i> Campbellized</h1>
 
-    .. raw:: html
+.. class:: col-md-8 col-md-offset-2
 
-       <a href="https://getnikola.com/" class="btn btn-primary btn-lg">Click Me!</a>
+In hac habitasse platea dictumst.
 
-
-.. class:: col-md-6
+.. class:: col-md-8 col-md-offset-2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
 Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
 gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices
 mattis euismod. Mauris aliquet magna eget mauris volutpat a egestas leo rhoncus.
-In hac habitasse platea dictumst. Ut sed mi arcu. Nullam id massa eu orci
-convallis accumsan. Nunc faucibus sodales justo ac ornare. In eu congue eros.
-Pellentesque iaculis risus urna. Proin est lorem, scelerisque non elementum at,
-semper vel velit. Phasellus consectetur orci vel tortor tempus imperdiet. Class
-aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos.
+In hac habitasse platea dictumst.
 

@@ -1,0 +1,39 @@
+/* Element Styles */
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+p {
+    color: #292c36;
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+/* Content Styles */
+
+.page-title {
+    margin-bottom: 0.5em;
+}
+
+.entry-content {
+    margin-top: 6rem;
+}
+
+/* Footer Styles */
+
+#footer {
+    margin-top: 6rem;
+    padding-bottom: 19px;
+}
