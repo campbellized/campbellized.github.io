@@ -10,7 +10,7 @@
 
 .. container:: row
 
-    .. class:: col-md-10 col-md-offset-1
+    .. class:: col-md-8 col-md-offset-2
 
     .. raw:: html
 
@@ -18,7 +18,7 @@
 
 .. container:: row
 
-    .. class:: col-md-10 col-md-offset-1
+    .. class:: col-md-8 col-md-offset-2
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
     Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
@@ -28,7 +28,7 @@
 
 .. container:: row
 
-    .. container:: col-md-10 col-md-offset-1
+    .. container:: col-md-8 col-md-offset-2
 
         .. raw:: html
 
@@ -36,36 +36,45 @@
 
 .. container:: row
 
-    .. container:: col-md-5 col-md-offset-1
+    .. container:: col-md-2 col-md-offset-2
+
+        .. image:: /images/nikola.png
+           :target: http://www.campbellized.com
+
+    .. container:: col-md-6
 
         .. raw:: html
 
-            <img src="http://placehold.it/480x320">
+            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
 
-        Project Name
-
-    .. container:: col-md-5
-
-        .. raw:: html
-
-            <img src="http://placehold.it/480x320">
-
-        Project Name
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
 
 .. container:: row
 
-    .. container:: col-md-5 col-md-offset-1
+    .. container:: col-md-2 col-md-offset-2
+
+        .. image:: /images/nikola.png
+           :target: http://www.campbellized.com
+
+    .. container:: col-md-6
 
         .. raw:: html
 
-            <img src="http://placehold.it/480x320">
+            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
 
-        Project Name
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
 
-    .. container:: col-md-5
+.. container:: row
+
+    .. container:: col-md-2 col-md-offset-2
+
+        .. image:: /images/nikola.png
+           :target: http://www.campbellized.com
+
+    .. container:: col-md-6
 
         .. raw:: html
 
-            <img src="http://placehold.it/480x320">
+            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
 
-        Project Name
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
