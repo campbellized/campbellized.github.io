@@ -1,5 +1,5 @@
 /* Element Styles */
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
 
 }
 
@@ -13,12 +13,31 @@ h2 {
 
 h3 {
     font-size: 3em;
+} */
+
+a {
+    transition: 0.2s all ease;
+    border-color: transparent;
+}
+
+#content a:hover, #content a:focus {
+    color: #7eccc5;
+    border-bottom: 1px solid #7eccc5;
+    text-decoration: none;
 }
 
 p {
     color: #292c36;
     font-size: 18px;
     margin-bottom: 1em;
+}
+
+/* Navbar Styles */
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #7eccc5;
 }
 
 /* Content Styles */
@@ -44,6 +63,15 @@ p {
 
 .entry-content {
     margin-top: 6rem;
+}
+
+@media only screen and (max-width: 767px){
+    #content .row {
+        margin-bottom: 2em;
+    }
+    #content [class^="col"] {
+        margin-bottom: 1em;
+    }
 }
 
 /* Footer Styles */

@@ -26,8 +26,6 @@
 
             <h2>Projects</h2>
 
-.. container:: row
-
     .. container:: col-md-2 col-md-offset-2
 
         .. image:: /images/nikola.png
