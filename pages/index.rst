@@ -12,14 +12,6 @@
 
     .. class:: col-md-8 col-md-offset-2
 
-    .. raw:: html
-
-        <h1 class="page-title">My name is Chris Campbell.<br><i>aka</i> Campbellized</h1>
-
-.. container:: row
-
-    .. class:: col-md-8 col-md-offset-2
-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
     Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
     gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices

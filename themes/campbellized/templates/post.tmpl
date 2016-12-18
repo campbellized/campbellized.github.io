@@ -27,6 +27,14 @@
     ${helper.meta_translations(post)}
 </%block>
 
+<%block name="content_header">
+    % if post.meta('slug') == "index":
+        <h1>Chris Campbell</h1>
+    % else:
+        <h1>${post.title()}</h1>
+    % endif
+</%block>
+
 <%block name="content">
 <article class="post-${post.meta('type')} h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
     ${pheader.html_post_header()}

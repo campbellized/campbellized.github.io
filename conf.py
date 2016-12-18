@@ -135,6 +135,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/blog/", "Blog"),
+        ("/about/", "About"),
         # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
     ),
@@ -145,7 +146,7 @@ THEME = "campbellized"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = '#18bc9c'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
@@ -180,9 +181,9 @@ POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "story.tmpl"),
-    ("pages/*.txt", "pages", "story.tmpl"),
-    ("pages/*.html", "pages", "story.tmpl"),
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
 )
 
 

@@ -13,6 +13,7 @@ ${template_hooks['extra_head']()}
 
 <!-- Menubar -->
 
+<header id="header" style="background-color:${theme_color}">
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container"><!-- This keeps the margins nice -->
         <div class="navbar-header">
@@ -54,15 +55,28 @@ ${template_hooks['extra_head']()}
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
+
 </nav>
 
 <!-- End of Menubar -->
+
+    <div class="header__title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                ${template_hooks['page_header']()}
+                <%block name="content_header"></%block>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
 
 <div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
-            ${template_hooks['page_header']()}
             <%block name="content"></%block>
         </div>
         <!--End of body content-->

@@ -22,7 +22,22 @@ p {
 }
 
 /* Content Styles */
-
+#header {
+    color: #fff;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container.row {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+}
 .page-title {
     margin-bottom: 0.5em;
 }
