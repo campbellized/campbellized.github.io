@@ -28,43 +28,30 @@
 
     .. container:: col-md-2 col-md-offset-2
 
-        .. image:: /images/nikola.png
+        .. image:: http://placehold.it/180x180
            :target: http://www.campbellized.com
 
     .. container:: col-md-6
 
         .. raw:: html
 
-            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
+            <h3 class="project__name"><a href="#">Meteor Lobby</a></h3><span class="project__stack">MeteorJS / JavaScript, MongoDB</span>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
+        This web app is capable of spawning interactive multiplayer lobbies based upon demand. Each lobby has a chat window where users can interact, and a game to keep everyone happy.
 
 .. container:: row
 
     .. container:: col-md-2 col-md-offset-2
 
-        .. image:: /images/nikola.png
-           :target: http://www.campbellized.com
+        .. image:: http://placehold.it/180x180
+           :target: https://github.com/campbellized/askew
 
     .. container:: col-md-6
 
         .. raw:: html
 
-            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
+            <h3 class="project__name"><a href="https://github.com/campbellized/askew">Askew</a></h3><span class="project__stack">Python 3</span>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
+        Powered by Imgscii_ (a Python package I authored), this script allows the user to browse DeviantArt from the command line. Images are displayed as ASCII art and users can submit queries and browse the results.
 
-.. container:: row
-
-    .. container:: col-md-2 col-md-offset-2
-
-        .. image:: /images/nikola.png
-           :target: http://www.campbellized.com
-
-    .. container:: col-md-6
-
-        .. raw:: html
-
-            <h3 class="project__name">Project Name</h3><span class="project__stack">Tech Stack, Tech Stack</span>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis. Phasellus a ullamcorper leo.
+        .. _Imgscii: https://pypi.python.org/pypi/Imgscii/

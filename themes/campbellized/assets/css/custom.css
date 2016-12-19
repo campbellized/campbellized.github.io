@@ -150,6 +150,10 @@ h2.section__title {
 
 
 /* Footer Styles */
+.row.footer-row {
+  margin-bottom: 0;
+}
+
 #footer {
     padding-bottom: 19px;
 }
