@@ -45,13 +45,15 @@ p {
 
 
 /* Header & Nav Styles */
-
+.navbar-inverse {
+  background-color: transparent;
+}
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
     color: #ffffff;
-    background-color: #7eccc5;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .navbar-brand #blog-title {
@@ -80,14 +82,29 @@ p {
 }
 
 #header {
+    background-image: url("https://subtlepatterns.com/patterns/geometry2.png");
+    background-repeat: repeat;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+}
+#header:before {
+  background-color: rgba(141,221,213,0.75);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
 }
 .header__title {
     padding-top: 30px;
     padding-bottom: 30px;
+    position: relative;
+    z-index: 10;
 }
 
 .header__title h1 small {
@@ -180,6 +197,7 @@ h2.section__title {
 /* Responsive Styles */
 @media only screen and (min-width: 768px){
   #header {
+    background-attachment: fixed;
     min-height: 300px;
   }
 }
