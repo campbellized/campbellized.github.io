@@ -1,13 +1,11 @@
 .. title: Hello World
 .. slug: hello-world
 .. date: 2016-11-28 21:47:49 UTC-05:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. tags:
+.. category:
+.. link:
+.. description:
 .. type: text
-
-.. class:: col-md-8 col-md-offset-2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
 Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque

@@ -16,6 +16,7 @@ ${template_hooks['extra_head']()}
 <header id="header" style="background-color:${theme_color}">
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container"><!-- This keeps the margins nice -->
+      <div class="col-md-8 col-md-offset-2">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
             <span class="sr-only">${messages("Toggle navigation")}</span>
@@ -57,6 +58,7 @@ ${template_hooks['extra_head']()}
                 ${template_hooks['menu_alt']()}
             </ul>
         </div><!-- /.navbar-collapse -->
+      </div>
     </div><!-- /.container -->
 
 </nav>
@@ -83,11 +85,14 @@ ${template_hooks['extra_head']()}
             <%block name="content"></%block>
         </div>
         <!--End of body content-->
-
-        <footer id="footer">
-            ${content_footer}
-            ${template_hooks['page_footer']()}
-        </footer>
+        <div class="row no-gutter">
+          <div class="col-md-8 col-md-offset-2">
+            <footer id="footer">
+                  ${content_footer}
+                  ${template_hooks['page_footer']()}
+            </footer>
+          </div>
+        </div>
     </div>
 </div>
 

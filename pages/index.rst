@@ -1,10 +1,10 @@
 .. title: index
 .. slug: index
 .. date: 2016-11-28 20:47:30 UTC-05:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. tags:
+.. category:
+.. link:
+.. description:
 .. type: text
 .. hidetitle: True
 
@@ -24,7 +24,7 @@
 
         .. raw:: html
 
-            <h2>Projects</h2>
+            <h2 class="section__title">Projects</h2>
 
     .. container:: col-md-2 col-md-offset-2
 

@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Chris Campbell"  # (translatable)
-BLOG_TITLE = "Campbellized"  # (translatable)
+BLOG_TITLE = "Chris Campbell"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "http://campbellized.com/"
@@ -205,7 +205,7 @@ TIMEZONE = "EST"
 
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%b %d %Y'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
@@ -852,7 +852,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Built by <a href="mailto:{email}">{author}</a> &copy; {date} - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = '<p><a href="mailto:{email}">{author}</a> &copy; {date} '
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -979,7 +979,7 @@ PRETTY_URLS = True
 # it's faster and the output looks better.
 # If you set USE_KATEX to True, you also need to add an extra CSS file
 # like this:
-# EXTRA_HEAD_DATA = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">"""
+# EXTRA_HEAD_DATA = """<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">"""
 # USE_KATEX = False
 
 # If you want to use the old (buggy) inline math $.$ with KaTeX, then
@@ -1220,7 +1220,7 @@ UNSLUGIFY_TITLES = True
 # past.  Useful especially if your post titles are in <h1> tags too, for
 # example.
 # (defaults to 1.)
-# DEMOTE_HEADERS = 1
+DEMOTE_HEADERS = 0
 
 # Docutils, by default, will perform a transform in your documents
 # extracting unique titles at the top of your document and turning
