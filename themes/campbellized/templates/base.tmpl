@@ -85,10 +85,15 @@ ${template_hooks['extra_head']()}
             <%block name="content"></%block>
         </div>
         <!--End of body content-->
-        <div class="row no-gutter">
+        <div class="row footer-row">
           <div class="col-md-8 col-md-offset-2">
             <footer id="footer">
                   ${content_footer}
+                  <ul class="footer__social">
+                      <li><a href="https://github.com/campbellized/">GitHub</a></li>
+                      <li><a href="https://www.linkedin.com/in/campbellized">LinkedIn</a></li>
+                      <li><a href="https://twitter.com/campbellized">Twitter</a></li>
+                  </ul>
                   ${template_hooks['page_footer']()}
             </footer>
           </div>
