@@ -1,0 +1,4 @@
+Sitemap: http://campbellized.com/sitemapindex.xml
+
+User-Agent: *
+Host: campbellized.com

@@ -1,0 +1,259 @@
+/* Element Styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #3e4445;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: 300;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+a {
+    transition: 0.2s all ease;
+    border-color: transparent;
+}
+
+#content a:not(.btn) {
+  color: #8dddd5;
+  text-decoration: none;
+}
+
+#content a:not(.btn):hover, #content a:not(.btn):focus {
+    color: #7eccc5;
+    border-bottom: 1px solid #7eccc5;
+}
+
+p {
+    color: #3e4445;
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #8dddd5;
+    border-color: #8dddd5;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #7eccc5;
+    border-color: #7eccc5;
+}
+
+
+/* Header & Nav Styles */
+.navbar-inverse {
+  flex: auto;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navbar-brand #blog-title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-inverse .navbar-toggle {
+  background-color: transparent;
+  border-color: #7eccc5;
+}
+
+.navbar-inverse .navbar-toggle.collapsed {
+  background-color: #7eccc5;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+  border-color: #7eccc5;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #7eccc5;
+}
+
+#header {
+    background-image: url("https://subtlepatterns.com/patterns/geometry2.png");
+    background-repeat: repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+#header:before {
+  background-color: rgba(141,221,213,0.75);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+.header__title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.header__title h1 small {
+  display: block;
+  color: #fff;
+  padding-left: 5px;
+  padding-top: 3px;
+  font-size: 0.5em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+
+/* Content Styles */
+.container.row {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+}
+
+.page-title {
+    margin-bottom: 0.5em;
+}
+
+#content .row:not(:last-of-type) {
+    margin-bottom: 5em;
+}
+
+#content [class^="col"]:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+h2.section__title {
+  margin-bottom: 0.25em;
+}
+
+.project__name {
+  margin-bottom: 0;
+}
+
+.project__stack {
+  margin-bottom: 1em;
+  display: block;
+  font-weight: 600;
+}
+
+.body-content > .row {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+:last-child {
+  margin-bottom: 0;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/* Footer Styles */
+.row.footer-row {
+  margin-bottom: 0;
+}
+
+#footer {
+    padding-bottom: 19px;
+}
+.footer__content {
+  font-size: 15px;
+  float: left;
+}
+
+.footer__social {
+  float: right;
+  margin-right: -10px;
+}
+
+.footer__social li {
+  display: inline-block;
+}
+
+.footer__social a {
+  margin: 0px 10px;
+}
+
+
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px){
+  #header {
+    background-attachment: fixed;
+    min-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .navbar .container > [class^="col"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #content .row {
+    margin-bottom: 3em;
+  }
+
+  #content .row.footer-row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #content [class^="col"] {
+    margin-bottom: 1.5em;
+  }
+
+  #content .entry-content > .row:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__content {
+    font-size: 15px;
+    float: none;
+  }
+
+  .footer__social {
+    float: none;
+    margin-right: 0;
+    padding: 0.5em 0 0;
+  }
+  .footer__social a {
+    margin: 0 20px 0 0;
+  }
+}
