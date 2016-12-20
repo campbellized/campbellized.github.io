@@ -29,7 +29,7 @@
     .. container:: col-md-2 col-md-offset-2
 
         .. image:: http://placehold.it/180x180
-           :target: http://www.campbellized.com
+           :target: http://phaser-game-lobby.herokuapp.com
 
     .. container:: col-md-6
 
@@ -38,6 +38,10 @@
             <h3 class="project__name"><a href="#">Meteor Lobby</a></h3><span class="project__stack">MeteorJS / JavaScript, MongoDB</span>
 
         This web app is capable of spawning interactive multiplayer lobbies based upon demand. Each lobby has a chat window where users can interact, and a game to keep everyone happy.
+
+        .. raw:: html
+
+            <a href="http://phaser-game-lobby.herokuapp.com" class="btn btn-primary">Learn More</a>
 
 .. container:: row
 
@@ -55,3 +59,7 @@
         Powered by Imgscii_ (a Python package I authored), this script allows the user to browse DeviantArt from the command line. Images are displayed as ASCII art and users can submit queries and browse the results.
 
         .. _Imgscii: https://pypi.python.org/pypi/Imgscii/
+
+        .. raw:: html
+
+            <a href="https://github.com/campbellized/askew" class="btn btn-primary">Learn More</a>

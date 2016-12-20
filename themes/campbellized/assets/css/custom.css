@@ -27,14 +27,14 @@ a {
     border-color: transparent;
 }
 
-#content a {
+#content a:not(.btn) {
   color: #8dddd5;
   text-decoration: none;
 }
 
-#content a:hover, #content a:focus {
-    color: #6aaaa5;
-    border-bottom: 1px solid #6aaaa5;
+#content a:not(.btn):hover, #content a:not(.btn):focus {
+    color: #7eccc5;
+    border-bottom: 1px solid #7eccc5;
 }
 
 p {
@@ -43,9 +43,22 @@ p {
     margin-bottom: 1em;
 }
 
+.btn-primary {
+    color: #ffffff;
+    background-color: #8dddd5;
+    border-color: #8dddd5;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #7eccc5;
+    border-color: #7eccc5;
+}
+
 
 /* Header & Nav Styles */
 .navbar-inverse {
+  flex: auto;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -138,7 +151,7 @@ p {
 }
 
 h2.section__title {
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 .project__name {
