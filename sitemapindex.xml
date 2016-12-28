@@ -6,39 +6,19 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://campbellized.com/categories/blog.xml</loc>
-  <lastmod>2016-11-29T01:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://campbellized.com/categories/cat_nikola.xml</loc>
-  <lastmod>2016-11-29T01:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://campbellized.com/categories/demo.xml</loc>
-  <lastmod>2016-11-29T01:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://campbellized.com/categories/nikola.xml</loc>
-  <lastmod>2016-11-29T01:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://campbellized.com/categories/python.xml</loc>
-  <lastmod>2016-11-29T01:47:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://campbellized.com/galleries/demo/rss.xml</loc>
-  <lastmod>2016-12-19T04:01:00Z</lastmod>
+  <lastmod>2016-12-20T02:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/galleries/rss.xml</loc>
-  <lastmod>2016-12-19T04:01:00Z</lastmod>
+  <lastmod>2016-12-20T02:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/rss.xml</loc>
-  <lastmod>2016-12-19T03:13:00Z</lastmod>
+  <lastmod>2016-12-28T03:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/sitemap.xml</loc>
-  <lastmod>2016-12-19T04:01:00Z</lastmod>
+  <lastmod>2016-12-28T04:12:00Z</lastmod>
  </sitemap>
 </sitemapindex>
