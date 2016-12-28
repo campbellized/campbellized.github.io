@@ -35,13 +35,32 @@
 
         .. raw:: html
 
+            <h3 class="project__name"><a href="#">Patternatrix</a></h3><span class="project__stack">JavaScript</span>
+
+        A MIDI-enabled 16 step pattern sequencer paired with an drum machine. Patternatrix uses HTML5 audio and JavaScript to bring the hottest beats to your browser. This project needs a modern browser with support for HTML audio such as Chrome.
+
+        .. raw:: html
+
+            <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">View</a><!-- <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">Learn More</a> -->
+
+.. container:: row
+
+    .. container:: col-md-2 col-md-offset-2
+
+        .. image:: http://placehold.it/180x180
+           :target: http://phaser-game-lobby.herokuapp.com
+
+    .. container:: col-md-6
+
+        .. raw:: html
+
             <h3 class="project__name"><a href="#">Meteor Lobby</a></h3><span class="project__stack">MeteorJS / JavaScript, MongoDB</span>
 
         This web app is capable of spawning interactive multiplayer lobbies based upon demand. Each lobby has a chat window where users can interact, and a game to keep everyone happy.
 
         .. raw:: html
 
-            <a href="http://phaser-game-lobby.herokuapp.com" class="btn btn-primary">Learn More</a>
+            <a href="http://phaser-game-lobby.herokuapp.com" class="btn btn-primary">View Project</a><!-- <a href="http://phaser-game-lobby.herokuapp.com" class="btn btn-primary">Learn More</a> -->
 
 .. container:: row
 
@@ -62,4 +81,4 @@
 
         .. raw:: html
 
-            <a href="https://github.com/campbellized/askew" class="btn btn-primary">Learn More</a>
+            <a href="https://github.com/campbellized/askew" class="btn btn-primary">View Project</a><!-- <a href="https://github.com/campbellized/askew" class="btn btn-primary">Learn More</a> -->
