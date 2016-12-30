@@ -704,6 +704,10 @@ p {
     margin-bottom: 1em;
 }
 
+img {
+  border: 1px solid #cecece;
+}
+
 .btn-primary {
     color: #ffffff;
     background-color: #8dddd5;
@@ -816,7 +820,7 @@ h2.section__title {
 }
 
 .project__name {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .project__stack {
@@ -867,8 +871,32 @@ h2.section__title {
 }
 
 
+.icon-list {
+  padding-left: 0;
+}
+
+.icon-list li {
+  display: block;
+}
+
+.icon-list li:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e013";
+  margin-right: 1em;
+  color: #7eccc5;
+}
+
+.icon-list span {
+  font-size: 18px;
+}
 
 /* Responsive Styles */
+@media only screen and (max-width: 991px){
+  .icon-list {
+    margin-bottom: -1em;
+  }
+}
+
 @media only screen and (min-width: 768px){
   #header {
     background-attachment: fixed;
@@ -914,6 +942,7 @@ h2.section__title {
     margin-right: 0;
     padding: 0.5em 0 0;
   }
+
   .footer__social a {
     margin: 0 20px 0 0;
   }

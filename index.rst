@@ -12,11 +12,34 @@
 
     .. class:: col-md-8 col-md-offset-2
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
-    Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
-    gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices
-    mattis euismod. Mauris aliquet magna eget mauris volutpat a egestas leo rhoncus.
-    In hac habitasse platea dictumst.
+    I have worked with startups, international non-profits, and boutique design agencies to create engaging user experiences. I have worked with startups, international non-profits, and boutique design agencies to create engaging user experiences.
+
+.. container:: row
+
+    .. container:: col-md-8 col-md-offset-2
+
+        .. raw:: html
+
+            <h2 class="section__title">Skills</h2>
+
+    .. container:: col-md-3 col-md-offset-2
+
+        .. raw:: html
+
+            <ul class="icon-list"><li><span>Python 3</span></li><li><span>JavaScript</span></li><li><span>Git</span></li></ul>
+
+    .. container:: col-md-3
+
+        .. raw:: html
+
+            <ul class="icon-list"><li><span>HTML5</span></li><li><span>CSS3</span></li><li><span>Bootstrap</span></li></ul>
+
+    .. container:: col-md-2
+
+        .. raw:: html
+
+            <ul class="icon-list"><li><span>MeteorJS</span></li><li><span>MongoDB</span></li><li><span>GulpJS</span></li></ul>
+
 
 .. container:: row
 
@@ -28,33 +51,31 @@
 
     .. container:: col-md-2 col-md-offset-2
 
-        .. image:: http://placehold.it/180x180
-           :target: http://phaser-game-lobby.herokuapp.com
+        .. image:: /images/patternatrix.png
 
     .. container:: col-md-6
 
         .. raw:: html
 
-            <h3 class="project__name"><a href="#">Patternatrix</a></h3><span class="project__stack">JavaScript</span>
+            <h3 class="project__name"><a href="https://campbellized.github.io/patternatrix">Patternatrix</a></h3><span class="project__stack">JavaScript</span>
 
-        A MIDI-enabled 16 step pattern sequencer paired with an drum machine. Patternatrix uses HTML5 audio and JavaScript to bring the hottest beats to your browser. This project needs a modern browser with support for HTML audio such as Chrome.
+        Patternatrix is a MIDI-enabled 16 step pattern sequencer paired with a drum machine. It was built with HTML5 audio and JavaScript to bring the hottest beats to your browser. This project needs a modern desktop browser with support for HTML audio such as Chrome.
 
         .. raw:: html
 
-            <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">View</a><!-- <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">Learn More</a> -->
+            <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">View Project</a><!-- <a href="https://campbellized.github.io/patternatrix" class="btn btn-primary">Learn More</a> -->
 
 .. container:: row
 
     .. container:: col-md-2 col-md-offset-2
 
-        .. image:: http://placehold.it/180x180
-           :target: http://phaser-game-lobby.herokuapp.com
+        .. image:: /images/phaser-lobby.png
 
     .. container:: col-md-6
 
         .. raw:: html
 
-            <h3 class="project__name"><a href="#">Meteor Lobby</a></h3><span class="project__stack">MeteorJS / JavaScript, MongoDB</span>
+            <h3 class="project__name"><a href="http://phaser-game-lobby.herokuapp.com">Meteor Lobby</a></h3><span class="project__stack">MeteorJS / JavaScript, MongoDB</span>
 
         This web app is capable of spawning interactive multiplayer lobbies based upon demand. Each lobby has a chat window where users can interact, and a game to keep everyone happy.
 
@@ -66,8 +87,7 @@
 
     .. container:: col-md-2 col-md-offset-2
 
-        .. image:: http://placehold.it/180x180
-           :target: https://github.com/campbellized/askew
+        .. image:: /images/askew.png
 
     .. container:: col-md-6
 
