@@ -851,7 +851,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '<p class="footer__content"><a href="mailto:{email}">{author}</a> &copy; {date}'
+CONTENT_FOOTER = '<p class="footer__content">Designed & built by <a href="mailto:{email}">{author}</a> &copy; {date}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
