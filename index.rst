@@ -1,4 +1,4 @@
-.. title: index
+.. title: Home
 .. slug: index
 .. date: 2016-11-28 20:47:30 UTC-05:00
 .. tags:
@@ -10,9 +10,17 @@
 
 .. container:: row
 
-    .. class:: col-md-8 col-md-offset-2
+    .. container:: col-md-2 col-md-offset-2
 
-    I have worked with startups, international non-profits, and boutique design agencies to create engaging user experiences. I have worked with startups, international non-profits, and boutique design agencies to create engaging user experiences.
+        .. image:: /images/portrait.png
+
+    .. class:: col-md-6
+
+        I believe that programming enables an individual to bring their ideas to life and have an impact on the world. I have six years of professional experience using code to build amazing things on the internet. I have worked with startups, international non-profits, and boutique design agencies to create engaging and effective user experiences.
+
+    .. class:: col-md-6 col-md-offset-4
+
+        When I am not programming, I like spending time with my family, playing retro video games, and making noise on synthesizers.
 
 .. container:: row
 
