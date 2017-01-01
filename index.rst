@@ -16,7 +16,7 @@
 
     .. class:: col-md-6
 
-        I believe that programming enables me to bring my ideas to life and have an impact on the world. I have six years of professional experience using code to build amazing things on the internet. I have worked with startups, international non-profits, and boutique design agencies to create engaging and effective user experiences.
+        I believe that programming enables an individual to bring their ideas to life and have an impact on the world. I have six years of professional experience using code to build amazing things on the internet. I have worked with startups, international non-profits, and boutique design agencies to create engaging and effective user experiences.
 
     .. class:: col-md-6 col-md-offset-4
 

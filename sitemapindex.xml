@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://campbellized.com/galleries/demo/rss.xml</loc>
-  <lastmod>2016-12-30T03:04:00Z</lastmod>
+  <lastmod>2017-01-01T00:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/galleries/rss.xml</loc>
-  <lastmod>2016-12-30T03:04:00Z</lastmod>
+  <lastmod>2017-01-01T00:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/rss.xml</loc>
@@ -19,6 +19,6 @@
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/sitemap.xml</loc>
-  <lastmod>2016-12-30T03:04:00Z</lastmod>
+  <lastmod>2017-01-01T00:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
