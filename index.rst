@@ -34,7 +34,7 @@
 
         .. raw:: html
 
-            <ul class="icon-list"><li><span>Python 3</span></li><li><span>JavaScript</span></li><li><span>Git</span></li></ul>
+            <ul class="icon-list"><li><span>Python</span></li><li><span>JavaScript</span></li><li><span>Git</span></li></ul>
 
     .. container:: col-md-3
 
