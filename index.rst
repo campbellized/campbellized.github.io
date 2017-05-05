@@ -30,24 +30,116 @@
 
             <h2 class="section__title">Skills</h2>
 
-    .. container:: col-md-3 col-md-offset-2
+    .. container:: col-md-3 col-md-offset-2 col-sm-4
 
         .. raw:: html
 
             <ul class="icon-list"><li><span>Python</span></li><li><span>JavaScript</span></li><li><span>Git</span></li></ul>
 
-    .. container:: col-md-3
+    .. container:: col-md-3 col-sm-4
 
         .. raw:: html
 
             <ul class="icon-list"><li><span>HTML5</span></li><li><span>CSS3</span></li><li><span>Bootstrap</span></li></ul>
 
-    .. container:: col-md-2
+    .. container:: col-md-2 col-sm-4
 
         .. raw:: html
 
             <ul class="icon-list"><li><span>MeteorJS</span></li><li><span>MongoDB</span></li><li><span>GulpJS</span></li></ul>
 
+
+.. container:: row portfolio
+
+    .. container:: col-md-8 col-md-offset-2
+
+        .. raw:: html
+
+            <h2 class="section__title">Professional Work</h2>
+
+    .. container:: col-md-2 col-md-offset-2 col-sm-6
+
+        .. image:: /images/ny-ave.png
+           :class: islink
+           :target: http://www.ny-ave.com
+
+        .. raw:: html
+
+           <h4 class="portfolio__name"><a href="http://www.ny-ave.com">New York Ave.</a></h4>
+
+    .. container:: col-md-2 col-sm-6
+
+        .. image:: /images/kenzik.png
+           :class: islink
+           :target: http://www.drkenzik.com
+
+        .. raw:: html
+
+           <h4 class="portfolio__name"><a href="http://www.drkenzik.com">Dr. Raymond Kenzik</a></h4>
+
+    .. container:: col-md-2 col-sm-6
+
+        .. image:: /images/fcia.png
+           :class: islink
+           :target: https://www.fciains.com/
+
+        .. raw:: html
+
+           <h4 class="portfolio__name"><a href="https://www.fciains.com/">Flagler County Insurance Agency</a></h4>
+
+
+    .. container:: col-md-2 col-sm-6
+
+        .. image:: /images/rbs.png
+           :class: islink
+           :target: http://www.residentialbuildingsupply.com
+
+        .. raw:: html
+
+           <h4 class="portfolio__name"><a href="http://www.residentialbuildingsupply.com">Residential Building Supply</a></h4>
+
+.. container:: row portfolio
+
+   .. container:: col-md-2 col-md-offset-2 col-sm-6
+
+       .. image:: /images/sbcs.png
+          :class: islink
+          :target: http://www.sbcsed.org/
+
+       .. raw:: html
+
+          <h4 class="portfolio__name"><a href="http://www.sbcsed.org/">Stetson Baptist Christian School</a></h4>
+
+   .. container:: col-md-2 col-sm-6
+
+       .. image:: /images/sip.png
+          :class: islink
+          :target: http://www.superinspectionpros.com/
+
+       .. raw:: html
+
+          <h4 class="portfolio__name"><a href="http://www.superinspectionpros.com/">Super Inspection Pros</a></h4>
+
+   .. container:: col-md-2 col-sm-6
+
+       .. image:: /images/eastcoast.png
+          :class: islink
+          :target: http://www.eastcoastheatingandac.com/
+
+       .. raw:: html
+
+          <h4 class="portfolio__name"><a href="http://www.eastcoastheatingandac.com/">East Coast Heating & Air Conditioning</a></h4>
+
+
+   .. container:: col-md-2 col-sm-6
+
+       .. image:: /images/financialstewardship.png
+          :class: islink
+          :target: http://www.financialstewardshipcollaborative.com/
+
+       .. raw:: html
+
+          <h4 class="portfolio__name"><a href="http://www.financialstewardshipcollaborative.com/">Financial Stewardship Collaborative</a></h4>
 
 .. container:: row
 
@@ -55,7 +147,7 @@
 
         .. raw:: html
 
-            <h2 class="section__title">Projects</h2>
+            <h2 class="section__title">Personal Projects</h2>
 
     .. container:: col-md-2 col-md-offset-2
 

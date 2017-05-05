@@ -158,6 +158,11 @@ h2.section__title {
   margin-bottom: 0.25em;
 }
 
+.portfolio__name {
+  font-weight: bold;
+  margin-top: 5px;
+  line-height: 1.15;
+}
 .project__name {
   margin-bottom: 5px;
 }
@@ -244,6 +249,10 @@ h2.section__title {
 }
 
 @media only screen and (max-width: 767px){
+  .portfolio + .portfolio {
+    margin-top: -5em;
+  }
+
   .navbar .container > [class^="col"] {
     padding-left: 0;
     padding-right: 0;

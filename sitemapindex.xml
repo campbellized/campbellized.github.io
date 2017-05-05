@@ -6,15 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://campbellized.com/galleries/rss.xml</loc>
-  <lastmod>2017-01-01T00:45:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://campbellized.com/rss.xml</loc>
   <lastmod>2016-12-28T03:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://campbellized.com/sitemap.xml</loc>
-  <lastmod>2017-01-01T17:13:00Z</lastmod>
+  <lastmod>2017-05-05T15:23:00Z</lastmod>
  </sitemap>
 </sitemapindex>
